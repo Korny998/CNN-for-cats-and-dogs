@@ -21,7 +21,6 @@ Key features:
 - [Requirements](#requirements)
 - [Model Architecture](#model-architecture)
 - [Dataset](#dataset)
-- [License](#license)
 
 ---
 
@@ -86,16 +85,15 @@ python image_example.py
 The CNN model consists of the following layers:
 
 1. Input layer: 150x150x3
-
 2. Convolution + ReLU + MaxPooling:
-  - Conv2D: 32 filters
-  - MaxPooling2D
-  - Conv2D: 64 filters
-  - MaxPooling2D
-  - Conv2D: 128 filters
-  - MaxPooling2D
-  - Conv2D: 128 filters
-  - MaxPooling2D
+    - Conv2D: 32 filters
+    - MaxPooling2D
+    - Conv2D: 64 filters
+    - MaxPooling2D
+    - Conv2D: 128 filters
+    - MaxPooling2D
+    - Conv2D: 128 filters
+    - MaxPooling2D
 3. Flatten layer
 4. Dropout layer: 0.5
 5. Dense layer: 512 units, ReLU activation
