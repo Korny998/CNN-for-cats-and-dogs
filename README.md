@@ -29,7 +29,7 @@ Key features:
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Korny998/CNN-for-cats-and-dogs.git
 cd CNN-for-cats-and-dogs
 ```
 
