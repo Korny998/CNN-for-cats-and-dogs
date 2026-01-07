@@ -39,7 +39,6 @@ def create_dataset(
         end_index: int
 ) -> None:
     """Copy a subset of images for a given class to a new folder."""
-
     src_path: str = os.path.join(img_path, class_name)
     dst_path: str = os.path.join(new_path, class_name)
 

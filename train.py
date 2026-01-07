@@ -8,7 +8,6 @@ from model import build_model
 
 def train():
     """Compile and train the CNN model."""
-
     model = build_model()
 
     model.compile(
@@ -24,7 +23,6 @@ def train():
     )
 
     model.save('cats_and_dogs_small_model.h5')
-
     return history
 
 
